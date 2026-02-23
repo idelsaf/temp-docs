@@ -7,7 +7,7 @@ theme:
     - scheme: default
       primary: indigo
       accent: indigo
-repo_url: https://github.com/your-username/tasktracker-docs
+repo_url: https://github.com/idelsaf/temp-docs
 nav:
   - Introduction: index.md
   - User Guide:
