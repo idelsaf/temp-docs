@@ -1,1 +1,24 @@
-site_name: My Docs
+site_name: TaskTracker Documentation
+site_description: User guide and API reference for the task management system.
+site_author: Demo Author
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+repo_url: https://github.com/your-username/tasktracker-docs
+nav:
+  - Introduction: index.md
+  - User Guide:
+    - Quick Start: user-guide/quick-start.md
+    - Working with Tasks: user-guide/tasks.md
+  - API Reference:
+    - API Overview: api/overview.md
+    - Task Endpoints: api/endpoints/tasks.md
+  - For Developers:
+    - Development Setup: dev/setup.md
+markdown_extensions:
+  - admonition
+  - codehilite
+  - tables
